@@ -1,7 +1,7 @@
 import os
 try:
  from selenium import webdriver
- from admcheck.main import *
+ from adm3.main import *
 except:
     input("press enter to install required moudules, or ctrl + c to quit: ")
     os.system("pip install admcheck && pip install selenium")                    ### installs required modules
